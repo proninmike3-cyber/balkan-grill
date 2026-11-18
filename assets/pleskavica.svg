@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="Иллюстрация блюда"><defs>
+<radialGradient id="bg"><stop stop-color="#58372b"/><stop offset=".55" stop-color="#32261f"/><stop offset="1" stop-color="#1c1c19"/></radialGradient>
+<radialGradient id="plate"><stop stop-color="#484d48"/><stop offset=".82" stop-color="#1d2927"/><stop offset="1" stop-color="#101717"/></radialGradient>
+<linearGradient id="bread" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#f4c875"/><stop offset=".42" stop-color="#cf8b3e"/><stop offset=".7" stop-color="#ae632e"/><stop offset="1" stop-color="#f2ac4f"/></linearGradient>
+<linearGradient id="meat" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#743a23"/><stop offset=".25" stop-color="#b76530"/><stop offset=".58" stop-color="#4d241c"/><stop offset="1" stop-color="#ac5b33"/></linearGradient>
+<linearGradient id="rib" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#d28a43"/><stop offset=".45" stop-color="#9c3f20"/><stop offset=".7" stop-color="#4e2520"/><stop offset="1" stop-color="#bb622b"/></linearGradient>
+<radialGradient id="tomato"><stop stop-color="#ee8060"/><stop offset=".75" stop-color="#ba3127"/><stop offset="1" stop-color="#7f241b"/></radialGradient>
+<radialGradient id="dip"><stop stop-color="#e9ad62"/><stop offset="1" stop-color="#bb5b29"/></radialGradient>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="24"/></filter>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" seed="9" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".075"/></feComponentTransfer></filter>
+<filter id="soft"><feGaussianBlur stdDeviation="4"/></filter>
+</defs><rect width="800" height="800" fill="url(#bg)"/><ellipse cx="413" cy="697" rx="300" ry="60" fill="#070c0a" opacity=".4" filter="url(#shadow)"/><circle cx="400" cy="432" r="310" fill="url(#plate)" stroke="#4b524a" stroke-width="12"/><circle cx="400" cy="432" r="277" fill="none" stroke="#ffffff" stroke-opacity=".07" stroke-width="4"/><circle cx="497" cy="237" r="3" fill="#e1bd79" opacity=".65"/><circle cx="310" cy="305" r="4" fill="#d7a357" opacity=".65"/><circle cx="547" cy="232" r="7" fill="#d7a357" opacity=".65"/><circle cx="472" cy="396" r="3" fill="#d7a357" opacity=".65"/><circle cx="217" cy="291" r="4" fill="#e1bd79" opacity=".65"/><circle cx="478" cy="193" r="7" fill="#d7a357" opacity=".65"/><circle cx="536" cy="512" r="7" fill="#a4a75d" opacity=".65"/><circle cx="282" cy="409" r="7" fill="#a4a75d" opacity=".65"/><circle cx="584" cy="625" r="3" fill="#d7a357" opacity=".65"/><circle cx="527" cy="396" r="5" fill="#a4a75d" opacity=".65"/><circle cx="249" cy="290" r="5" fill="#d7a357" opacity=".65"/><circle cx="217" cy="374" r="3" fill="#a4a75d" opacity=".65"/><circle cx="603" cy="356" r="7" fill="#a4a75d" opacity=".65"/><g transform="rotate(-8 400 430)">
+<!-- lower baked лепинья -->
+<path d="M165 504 Q210 598 415 610 Q616 607 652 518 Q560 548 404 550 Q258 548 165 504" fill="url(#bread)" stroke="#a6622f" stroke-width="7"/>
+<path d="M177 519 Q425 562 641 522" fill="none" stroke="#ffe3a0" stroke-opacity=".65" stroke-width="8"/>
+<!-- cucumber / lettuce -->
+<path d="M168 483 Q189 454 224 487 T288 479 T360 486 T429 477 T497 485 T571 469 T654 488 L645 522 Q553 550 397 542 Q257 545 174 517Z" fill="#5c7b36" stroke="#89a450" stroke-width="5"/>
+<path d="M180 491 Q292 520 399 502 T641 487" stroke="#b2c36a" stroke-width="12" fill="none" opacity=".75"/>
+<!-- thick grilled patty -->
+<path d="M167 422 Q185 389 262 375 Q458 331 610 395 Q665 415 662 466 Q649 510 587 518 Q411 550 234 513 Q181 499 167 470Z" fill="url(#meat)" stroke="#3c241b" stroke-width="9"/>
+<path d="M188 441 Q309 404 430 410 T638 441" fill="none" stroke="#d99854" stroke-opacity=".55" stroke-width="8"/>
+<g opacity=".5" stroke="#291d19" stroke-width="11" stroke-linecap="round"><path d="M235 404L281 493"/><path d="M308 387L355 501"/><path d="M390 387L439 510"/><path d="M482 389L528 506"/><path d="M561 404L604 489"/></g>
+<!-- tomatoes -->
+<ellipse cx="290" cy="405" rx="76" ry="24" fill="url(#tomato)" stroke="#e37055" stroke-width="8"/>
+<ellipse cx="471" cy="402" rx="92" ry="25" fill="url(#tomato)" stroke="#e37055" stroke-width="8"/>
+<path d="M230 398Q290 420 346 400 M392 397Q470 420 556 399" stroke="#ffd59e" stroke-width="4" stroke-opacity=".65" fill="none"/>
+<!-- onions -->
+<path d="M215 393 Q276 350 330 396 M389 380 Q480 340 554 389" stroke="#e3d5b4" stroke-width="13" fill="none" stroke-linecap="round"/>
+<!-- top bread -->
+<path d="M156 349 Q178 224 374 217 Q593 206 657 329 Q661 349 643 365 Q467 395 315 384 Q204 381 156 349Z" fill="url(#bread)" stroke="#b86d34" stroke-width="7"/>
+<path d="M177 328 Q307 254 481 274 Q572 283 634 333" fill="none" stroke="#ffe29a" stroke-width="14" opacity=".5"/>
+<g opacity=".55" stroke="#96552e" stroke-linecap="round" stroke-width="12"><path d="M228 291l35 72"/><path d="M302 269l28 96"/><path d="M382 265l20 102"/><path d="M470 271l-8 95"/><path d="M544 290l-17 77"/></g>
+</g><rect width="800" height="800" filter="url(#grain)" opacity=".6" pointer-events="none"/></svg>
